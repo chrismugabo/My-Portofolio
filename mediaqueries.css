@@ -101,3 +101,42 @@
       text-align: justify;
     }
   }
+  @media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+  
+    .about-containers {
+      flex-wrap: wrap;
+    }
+  
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+  
+    /* Dark theme adjustments */
+    .dark-theme {
+      background-color: #121212;
+      color: #f5f5f5;
+    }
+  
+    .dark-theme nav {
+      background-color: #333;
+    }
+  
+    .dark-theme .theme-toggle {
+      color: yellow; /* Change icon color for dark mode */
+    }
+  
+    .dark-theme a {
+      color: #f5f5f5;
+    }
+  
+    .dark-theme .details-container {
+      background-color: #2c2c2c;
+      border-color: #444;
+    }
+  }
+  
