@@ -30,7 +30,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
   if (savedTheme === 'dark') {
     document.body.classList.add('dark-theme');
     themeIcon.innerHTML = '<i class="fas fa-moon"></i>'; // Moon icon for dark mode
-  } else {
+  } 
+  else {
     themeIcon.innerHTML = '<i class="fas fa-sun"></i>'; // Sun icon for light mode
   }
 });
